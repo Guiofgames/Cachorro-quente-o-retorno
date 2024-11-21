@@ -5,12 +5,14 @@
     <meta name="viewport" 
     content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
     <title>Cachorro Quente</title>
 </head>
 <body>
 
     <header class="header">
-        <img width="120px" src="logo.jpg" alt="">
+        <img width="120px" src="./img/logo.jpg" alt="">
+        <h1><b>Cachorro-Quente</b></h1>
         <nav class="menu">
             <ul class="menu-links">
                 <li><a href="#cardapio">CARDÁPIO</a></li>
@@ -26,15 +28,19 @@
         </a></p>
       </div>
       <div class="coluna">
-        <img src="Banner.jpg" alt="">
+        <img src="./img/Banner.jpg" alt="">
       </div>
     </section>
-
     <section class="cardapio" id="cardapioid">
       <h1>Cardápio</h1>
       <div class="cardapio-categoria">
         Cachorros quentes
       </div>
+      <div class="cardapio-item">
+        <div class="nome">Americano</div>
+        <div class="preco">R$ 5,00</div>
+        <div class="descricao">Pão de cachorro-quente, 1 salsicha, ketchup e mostarda.</div>
+    </div>
       <div class="cardapio-item">
           <div class="nome">Simples</div>
           <div class="preco">R$ 12,00</div>
@@ -61,12 +67,12 @@
       <div class="cardapio-item">
         <div class="nome">Refrigerante</div>
         <div class="preco">R$ 8,00</div>
-        <div class="descricao">Lata (coca-cola , guaraná)</div>
+        <div class="descricao">Lata (coca-cola, guaraná, pepsi, fanta)</div>
     </div>
     <div class="cardapio-item">
         <div class="nome">Aguá</div>
         <div class="preco">R$ 4,00</div>
-        <div class="descricao">garrafa 500ml</div>
+        <div class="descricao">Garrafa 500ml</div>
     </div>
     <div class="cardapio-item">
         <div class="nome">Cerveja</div>
@@ -74,8 +80,27 @@
         <div class="descricao">Heineken, Skol</div>
     </div>
     </section>
+    <section>
+        <hr class="divisa">
+        <div class="slide-container">
+            <span id="slider-image1"></span>
+            <span id="slider-image2"></span>
+            <span id="slider-image3"></span>
+            <div class="image-container">
+                <img src="./img/Cachorro-Quente-1.png"class="slider-image">
+                <img src="./img/cachorro-quente-2.webp"class="slider-image">
+                <img src="./img/cachorro-quente-3.webp"class="slider-image">
+            </div>
+            <div class="button-container">
+                <a href="#slider-image1" class="slider-button"></a>
+                <a href="#slider-image2" class="slider-button"></a>
+                <a href="#slider-image3" class="slider-button"></a>
+            </div>
+         </div>
+         <hr class="divisa">
+    </section>
     <footer>
-        <h3><b>Haruy Sushi</b></h3>
+        <h3><b>Cachorro-Quente</b></h3>
         <p>Rua Prof. Toledo, 500, centro - Sorocaba</p>
         <p>WhatsApp: (15) 9999-1234</p>
         <p>Aberto todos os dias das 14h às 23h</p>
